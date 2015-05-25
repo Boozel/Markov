@@ -1,0 +1,924 @@
+It is used much more narrowly, to refer to electronic documents that are, so to speak, "plain vanilla ASCII". By this is meant not only that the document is a plain text file, but that it has no information beyond "the text itself"—no representation of bold or italics, paragraph, page, chapter, or footnote boundaries, etc. Michael S. Hart,[2] for example, argued that this "is the only text mode that is easy on both the eyes and the computer". Hart made the correct[according to whom?] point that proprietary word-processor formats made texts grossly inaccessible; but that is irrelevant to standard, open data formats. The narrow sense of "e-text" is now uncommon, because the notion of "just vanilla ASCII" (attractive at first glance), has turned out to have serious difficulties:
+
+First, this narrow type of "e-text" is limited to the English letters. Not even Spanish ñ or the accented vowels used in many European languages cannot be represented (unless awkwardly and ambiguously as "~n" "a'"). Asian, Slavic, Greek, and other writing systems are right out.
+
+Second, diagrams and pictures cannot be accommodated, and many books have at least some such material; often it is essential to the book.
+
+Third, "e-texts" in this narrow sense have no reliable way to distinguish "the text" from other things that occur in a work. For example, page numbers, page headers, and footnotes might be omitted, or might simply appear as additional lines of text, perhaps with blank lines before and after (or not). An ornate separator line might be represented instead by a line of asterisks (or not). Chapter and sections titles, likewise, are just additional lines of text: they might be detectable by capitalization if they were all caps in the original (or not). Even to discover what conventions (if any) were used, makes each book a new research or reverse-engineering project.
+
+In consequence of this, such texts cannot be reliably re-formatted. A program cannot reliably tell where footnotes, headers or footers are, or perhaps even paragraphs, so it cannot re-arrange the text, for example to fit a narrower screen, or read it aloud for the visually impaired. Programs might apply heuristics to guess at the structure, but this can easily fail.
+
+Fourth, and a perhaps surprisingly[according to whom?] important issue, a "plain-text" e-text affords no way to represent information about the work. For example, is it the first or the tenth edition? Who prepared it, and what rights do they reserve or grant to others? Is this the raw version straight off a scanner, or has it been proofread and corrected? Metadata relating to the text is sometimes included with an e-text, but there is by this definition no way to say whether or where it is preset. At best, the text of the title page might be included (or not), perhaps with centering imitated by indentation.
+
+Fifth, texts with more complicated information cannot really be handled at all. A bilingual edition, or a critical edition with footnotes, commentary, critical apparatus, cross-references, or even the simplest tables. This leads to endless practical problems: for example, if the computer cannot reliably distinguish footnotes, it cannot find a phrase that a footnote interrupts.
+
+Even raw scanner OCR output usually produces more information than this, such as the use of bold and italic. If this information is not kept, it is expensive and time-consuming to reconstruct it; more sophisticated information such as what edition you have, may not be recoverable at all.
+
+If actuality, even "plain text" uses some kind of "markup"—usually control characters, spaces, tabs, and the like: Spaces between words; two returns and 5 spaces for paragraph. The main difference from more formal markup is that "plain texts" use implicit, usually undocumented conventions, which are therefore inconsistent and difficult to recognize.[3]
+
+The narrow sense of e-text as "plain vanilla ASCII" has fallen out of favor.[according to whom?] Nevertheless, many such texts are freely available on the Web, perhaps as much because they are easily produced as because of any purported portability advantage. For many years Project Gutenberg strongly favored this model of text, but with time, has begun to develop and distribute more capable forms such as HTML.
+See also
+
+    Text file
+    e-book
+    Electronic paper
+    Digital library
+    Online Books Page
+    Project Gutenberg
+    Distributed Proofreaders
+    L'Association des Bibliophiles Universels
+    Higher intellect project
+
+References
+
+Reading and Writing the Electronic Book. Nicole Yankelovich, Norman Meyrowitz, and Andries van Dam. IEEE Computer 18(10), October 1985. http://dl.acm.org/citation.cfm?id=4407
+Michael S. Hart
+
+    Coombs, James H.; Renear, Allen H.; DeRose, Steven J. (November 1987). "Markup systems and the future of scholarly text processing". Communications of the ACM (ACM) 30 (11): 933–947. doi:10.1145/32206.32209.
+
+External links
+
+    Scholarly Electronic Publishing Bibliography
+
+Categories:
+
+    Books by typeDigital librariesElectronic publishing
+
+Navigation menu
+
+    Create account
+    Log in
+
+    Article
+    Talk
+
+    Read
+    Edit
+
+More 
+    Måns Zelmerlöw (pictured), representing Sweden with the song "Heroes", wins the Eurovision Song Contest in Vienna, Austria.
+    At least 40 people are killed in a shootout in Mexico between Federal police and members of Jalisco New Generation Cartel.
+    Ireland becomes the first country to legalise same-sex marriage by constitutional referendum.
+    At least 21 people are killed by a suicide bomb in Qatif, Saudi Arabia.
+    Five banks charged with manipulating foreign exchange rates plead guilty and agree to fines totaling over US$5.7 billion.
+    The Islamic State of Iraq and the Levant captures the strategic city of Ramadi, Iraq, and the historic city of Palmyra, Syria.
+
+    Ongoing events:
+        Saudi Arabian-led intervention in Yemen 
+    Recent deaths:
+        John Forbes Nash, Jr. Marques Haynes 
+
+May 25, 2015 (Monday) 	edit 	history 	watch
+May 24, 2015 (Sunday) 	edit 	history 	watch
+
+Armed conflicts and attacks
+
+    War in Afghanistan (2015–present)
+        At least ten Afghan police officers are killed in a Taliban attack on checkpoints in Helmand Province. (AP via Fox News)
+    2015 Burundian unrest
+        The Burundi opposition suspends talks with the Government of President Pierre Nkurunziza following the assassination of opposition leader Zedi Feruzi of the Union for Peace and Development party yesterday. (CNN)
+    Syrian Civil War
+        A Syrian military helicopter crashes near the town of Kweiras killing all on board. (AP)
+
+Arts and culture
+
+    Dheepan, a French film directed by Jacques Audiard, wins the Palme d'Or at the 2015 Cannes Film Festival. (The Guardian)
+
+Disasters and accidents
+
+    Flash floods and heavy storms in the American states of Texas and Oklahoma claim at least two lives with hundreds of homes destroyed. (AP via Yahoo!, (CNN)
+
+International relations
+
+    Feminist activists including Gloria Steinem cross the Korean Demilitarized Zone by bus after being denied permission to walk across. (AP via US News and World Report)
+
+Law and crime
+
+    Authorities in Malaysia find mass graves in more than a dozen camps near the border with Thailand where Rohingya migrants are held. (AP)
+
+Politics and elections
+
+    Polish presidential election, 2015
+        Voters in Poland go to the polls for the second round of a Presidential election between President Bronisław Komorowski and challenger Andrzej Duda with exit polls showing Duda ahead. (BBC), (AP), (AP via WTOP)
+    Ethiopian general election, 2015
+        Voters in Ethiopia go to the polls for a general election with the ruling Ethiopian Peoples' Revolutionary Democratic Front facing no viable opposition. (The Guardian)
+
+Science
+
+    Nobel Prize winner John Forbes Nash, Jr. and his wife Alicia die in a taxi accident. (The New York Times)
+
+Sports
+
+    2015 Monaco Grand Prix
+        Nico Rosberg of Mercedes wins the 2015 Monaco Grand Prix ahead of third placed team mate Lewis Hamilton who started in pole position. (BBC)
+    2015 Indianapolis 500
+        2000 winner Juan Pablo Montoya holds off teammate Will Power by 0.105 seconds to win the 2015 Indianapolis 500. 2008 winner Scott Dixon started on the pole position and finished fourth. Concerns about safety had been raised after several practice crashes before the race, including one that hospitalized James Hinchcliffe. (ESPN)
+        A pit-road collision between the vehicles of James Davison and Pippa Mann results in the injury of two pit crew members on the team of Tristan Vautier. Greg Senerius was treated and released on-track for a foot injury, and Daniel Jang was transported to a hospital for evaluation. (ESPN)
+    2015 Coca-Cola 600
+        The 2015 Coca-Cola 600 occurs today with 2000 winner Matt Kenseth on the pole position. (ESPN)
+    2015 French Open
+        The French Open gets underway at Stade Roland Garros with Rafael Nadal and Maria Sharapova the defending champions in men's and women's singles. (Tennis.com)
+
+May 23, 2015 (Saturday) 	edit 	history 	watch
+
+Armed conflicts and attacks
+
+    War in Afghanistan (2015–present)
+        A roadside bomb kills two, including the district chief, in the Charcheno District of Afghanistan. (AP via ABC News America)
+    War in Somalia (2009–present)
+        Islamic extremists kill at least 18 people in an attack on two rural towns Awdhegie and Mubarak, (AP)
+    War in Donbass
+        Pro-Russian separatist military leader colonel Alexei Mozgovoi is confirmed killed in an ambush on his car. (BBC News)
+
+Arts and culture
+
+    The Salvadoran Archbishop Óscar Romero, assassinated at the start of the Salvadoran Civil War, is beatified in Pope Francis's name, by Cardinal Angelo Amato, Prefect of the Congregation for the Causes of Saints, in San Salvador. (White House) (CNN) (Vatican)
+    The final of the Eurovision Song Contest 2015 is held in Vienna, Austria with Måns Zelmerlöw of Sweden winning for the song Heroes. (Sydney Morning Herald), (BBC)
+    A memorial service is held in the Scottish capital Edinburgh for the Quintinshill rail disaster which occurred 100 years ago and claimed over 200 lives. (BBC)
+
+Disasters
+
+    The death toll from China's latest round of flooding rises to at least 48. (AP via Washington Post)
+    An Indian heat wave claims over 200 lives with the states of Andhra Pradesh and Telangana worst affected. (The Hindu)
+    Record breaking rain causes flooding in the American states of Oklahoma and Texas with Oklahoma City recording record rainfall levels for the month of May. (CNN)
+
+International relations
+
+    Rohingya refugee crisis
+        Julie Bishop, the Foreign Minister of Australia, says that Indonesia has advised that most of the people who have traveled to South East Asia by boat are from Bangladesh, not Rohingya from Myanmar. (Straits Times)
+        Myanmar announces plans to deport recently rescued migrants to Bangladesh. (Sky News Asia)
+
+Law and crime
+
+    Cleveland Police Department officer Michael Brelo is acquitted of manslaughter in relation to the 2012 deaths of Timothy Russell and Malissa Williams following a a police chase. There are multiple arrests in protests afterwards (Los Angeles Times via WA Today), (Newsnet)
+        The U.S. Justice Department announced it will review the decision to determine if further action is required. (The Guardian)
+    Nigerian drug agents arrest senator-elect Buruji Kashamu for extradition to the United States for his alleged involvement in a drug deal 20 years ago that is claimed to be the basis for the television show Orange is the New Black. (AP)
+    The President of Myanmar, Thein Sein, signs the Population Control Health Care Bill requiring some parents to space each child three years apart. (AP via Daily Mail)
+
+Politics and elections
+
+    Peru declares a 60 day state of emergency in the Tambo Valley following violent protests against a mine project which has seen four deaths. (AP via ABC News)
+    The United States Senate adjourns without agreeing either to reform the National Security Agency or extend the Patriot Act which is due to expire at the end of this month. (The Hill)
+    Thirty-fourth Amendment of the Constitution (Marriage Equality) Bill 2015
+        The counting of votes for yesterday's referendum occurs with the Republic of Ireland becoming the first country to adopt same sex marriage by referendum. (AP), (Independent Ireland), (The Guardian)
+
+May 22, 2015 (Friday) 	edit 	history 	watch
+
+Armed conflicts and attacks
+
+    Islamic State of Iraq and the Levant captures the border crossing at Al Waleed (al-Tanf in Syria), the last remaining border crossing between Syria and Iraq controlled by the Government of Syria. ISIL reportedly advances to within 40 km of Baghdad after their victory in Ramadi. (BBC)
+    A suicide bomber targeting Shiites at a mosque in Qatif, Saudi Arabia, has killed 19 and injured 28, per Red Crescent authorities. (Irish Independent)
+    Mexican Drug War
+        At least 42 members of the Jalisco New Generation Cartel and two Federal Police officers are killed in a shootout in the state of Michoacán. The death toll is preliminary and is expected to rise. (Reuters)
+
+Business
+
+    Li Hejun, formerly China's richest man, loses an estimated US$14 billion when his energy shares plunge nearly 50%. (Forbes)
+
+Disasters and accidents
+
+    Surrounding areas of Wembley Stadium, London, UK have been evacuated following the discovery by construction crews of a still-live World War II-era 50-kg (110-llb) conventional-explosive bomb, a remnant of the Blitz. (MSN)
+    The Myanmar Navy rescues two boats carrying 208 migrants as it faces growing international pressure to tackle the Rohingya migration crisis. (AFP via Yahoo! News)
+    Over 3,000 cases of cholera resulting in at least 31 deaths breaks out in a refugee camp for Burundians fleeing the recent political unrest in their country. (Al Jazeera)
+
+Politics
+
+    Voters in Ireland go to the polls to vote on constitutional referendums, including one that would allow same-sex marriage. (BBC)
+    The United States Senate passes legislation to allow President Barack Obama to fast track trade negotiations with other countries. (AP via ABC News America)
+
+Science
+
+    Science publishes a series of papers on biodiversity in the deep sea, including tens of thousands of single-celled organisms most of which had not been previously identified. (BBC)
+
+Sports
+
+    In cricket, Pakistan plays a Twenty20 match against Zimbabwe at Lahore. This is the first time a test playing nation toured Pakistan for a cricket match since the 2009 attack on the Sri Lanka national cricket team. (IndiaTV)
+
+May 21, 2015 (Thursday) 	edit 	history 	watch
+
+Armed conflicts and attacks
+
+    Islamic State of Iraq and the Levant
+        Islamic State fighters enter the ancient ruins of Palmyra after capturing the Syrian city of Tadmur yesterday. A hundred pro-government fighters are believed to have died in fighting. (Reuters)
+        The Syrian Observatory for Human Rights claims that Islamic State now controls more than half of Syria dominating 95,000 square kilometres and controls settlements in nine provinces. (News Limited)
+    Al-Shabaab militants briefly take over a mosque in Kenya's Garissa County. (BBC)
+    2014–15 Russian military intervention in Ukraine
+        Video interviews show that two Russians captured in Ukraine have publicly admitted to being soldiers in the GRU Russian special forces. The Donetsk People's Republic (separatists) authorities claim these men were official policemen in the self-proclaimed republic, publicized their ID badges, and claimed they retired from the Russian military last year. (AFP via Yahoo! News)
+
+Arts and culture
+
+    Robert Gates, the President of the Boy Scouts of America, calls on the movement to end the ban on gay adult leaders and says the movement will no longer revoke the charters of chapters that accept gay male leaders. (Yahoo News)
+
+Health
+
+    South Korea confirms its third case of Middle East Respiratory Syndrome. (Yonhap)
+    Two prisoners die and 30 are hospitalised following a cholera outbreak at the Shimo la Tewa facility in Mombasa, Kenya. (The Star via AllAfrica)
+    Cleanup continues after the Refugio Oil Spill at Refugio State Beach along the coast of Santa Barbara County, California.(ABC7.com)
+    Health authorities in the United States say that 53 people in nine states have been sickened in a salmonella outbreak. California is the worst affected state with 31 cases with the other states with cases include Arizona, Illinois, Mississippi, New Mexico, South Dakota, Virginia, Washington and Wisconsin. (NBC News)
+
+Law and crime
+
+    Brazilian anti-corruption blogger Evany José Metzker is found dead after investigating a drug dealing and prostitution case. (Deutsche Weller)
+    Death of Freddie Gray
+        A grand jury in the American city of Baltimore indicts six police officers relating to the death of Freddie Gray in police custody. All six officers will face charges of reckless endangerment. (AP via ABC News America), (ABC2)
+    Daron Dylon Wint is arrested in the American capital of Washington D.C. in relation to the murder of four people on May 14. (NBC Washington)
+    Mexican Drug War
+        Mexican police find three dismembered bodies in a search for ten missing people in Chilapa, a city occupied by vigilantes with alleged links to drug rings between May 9-14. (AP)
+
+Sports
+
+    Amnesty International accuses Qatar of failing to meet commitments on labor market reforms for migrant workers to be introduced before the 2022 FIFA World Cup. Among other charges, Qatar uses North Korean labourers who are not paid personally but instead the money goes to their government. (AFP via Google News)
+
+May 20, 2015 (Wednesday) 	edit 	history 	watch
+
+Armed conflicts and attacks
+
+    Islamic State in Iraq and the Levant
+        Islamic State captures the Syrian city of Tadmur from the Syrian Army with grave concerns held about the Palmyra site. (The Hindu) (BBC)
+    The Chinese navy issues warnings eight times as a United States Navy surveillance plane flies over manmade islands in the South China Sea. (CNN)
+
+Arts and culture
+
+    Tools found near Lake Turkana in Kenya by Sonia Harmand and Jason Lewis of Stony Brook University are dated at 3.3 million years making them the oldest yet discovered. (AP via ABC News America)
+    The last edition of the Late Show with David Letterman goes to air on CBS Television in the United States. Following his retirement, David Letterman will be succeeded by Stephen Colbert on September 8, 2015. (CNN Money)
+
+Disasters and accidents
+
+    A Shosholoza Meyl passenger train collides head-on with a goods train in Eastern Cape, South Africa, killing two people and injuring 20. (News24)
+    A rupture of an underground oil pipeline in California's Santa Barbara County near Refugio State Beach may have released 105,000 gallons of crude oil with tens of thousands gallons released into the Pacific Ocean. Jerry Brown, the Governor of California later declares a state of emergency. (Los Angeles Times), (ABC7 Los Angeles)
+    2015 Colombian landslide
+        The death toll from Monday's landslide in the town of Salgar rises to 80. (CNN)
+
+International relations
+
+    Antigua and Barbuda recognizes the independence of Kosovo. (Ministry of Foreign Affairs of the Republic of Kosovo)
+    South East Asian migrant crisis
+        The foreign ministers of Indonesia, Malaysia and Thailand meet in Kuala Lumpur to discuss people smuggling and the migrant crisis. Malaysia and Indonesia agree to accept asylum seekers providing that they can be resettled or repatriated within a year. (Straits Times), (wires and ABC Online)
+        Over 430 migrants are rescued off the coast of Indonesia's eastern Aceh province. (AP via New York Times)
+    North Korea
+        North Korea abruptly cancels an invitation for Ban Ki-moon, the Secretary-General of the United Nations, to visit. (AFP via Sydney Morning Herald)
+        The Korean Central News Agency claims that North Korea has the ability to miniaturize nuclear weapons and place them on ballistic missiles. (CNN)
+
+Law and crime
+
+    Zambia lifts a ban on hunting big cats imposed over corruption in hunting concessions in the past. (AFP via Yahoo News)
+    Five big banks Barclays, RBS, Citi, JP Morgan and UBS are fined $5.7 billion after a United States Department of Justice investigation into collusion by forex traders in several countries. The investigations estimated the banks profited over $100 billion from these crimes. (The Guardian)
+    An arrest warrant is issued for Daron Dylon Wint in the U.S. capital Washington, D.C. in connection to the alleged murder of four people on May 14. (WJLA)
+    The legislature in the American state of Nebraska votes to abolish the death penalty. (Washington Post)
+    Julio Suárez, the head of the Guatemalan Central Bank, is arrested together with the head of the Social Security Administration on corruption charges. (AFP via France24)
+
+Sports
+
+    British Formula 1 driver Lewis Hamilton signs a three year contract with the German constructors Mercedes AMG. (CNN)
+    The 2016 class of the NASCAR Hall of Fame is announced, consisting of champion drivers Bobby Isaac, Terry Labonte, and Jerry Cook; driver and builder of Charlotte Motor Speedway, Curtis Turner; and the head of Speedway Motorsports, Inc., Bruton Smith. (ESPN)
+
+May 19, 2015 (Tuesday) 	edit 	history 	watch
+
+Armed conflicts and attacks
+
+    Syrian Civil War
+        The Russian embassy in Damascus is shelled. (RT)
+
+Business and economy
+
+    The inflation rate in the United Kingdom goes to -0.1 in April, marking the first time since 1960 it has been negative. (BBC)
+    Takata Corporation doubles the size of its recall of faulty airbags in the United States with 34 million vehicles to be recalled. (Wall Street Journal)
+    The Los Angeles City Council votes to increase the minimum wage in the American city of Los Angeles, California, to $15 an hour by 2020. (New York Times)
+
+Disasters and accidents
+
+    More than 20 garment workers are killed after a bus that they were travelling to work in collides with a tourist bus in Cambodia's Svay Rieng Province. (Cambodia Daily)
+    The death toll from landslides in the Colombian town of Salgar rises to 56 with scores missing. (Agencies via Al-Jazeera)
+    Germanwings Flight 9525
+        French prosecutors say the passengers onboard the Germanwings flight that crashed in southern France have all been identified, and their bodies can be returned home to their families. (Reuters via Daily Mail)
+    At least 16 people are killed and scores are injured in a residential building fire in Baku, Azerbaijan. (Reuters UK)
+    Norwegian Cruise Line's Norwegian Dawn ran aground three miles off Bermuda when departing for a return trip to Boston, Massachusetts, U.S.A.. (Boston Herald) (Irish Independent)
+
+International relations
+
+    Prince Charles becomes the first member of the British Royal Family to meet with Gerry Adams, the President of Sinn Féin, during a two-day visit to Ireland. (AFP via ABC News)
+
+Law and crime
+
+    Former nurse Victorino Chua has been found guilty of murder and poisoning patients at Stepping Hill Hospital in Stockport, Greater Manchester, U.K., and sentenced to 35 years in jail. (BBC)
+    Police arrest more than 50 people following a probe into match fixing in Italian football. (BBC)
+    Mohawk Industries and five other companies agree to pay $275.5 million to settle lawsuits related to alleged price fixing of polyurethane foam, (Reuters)
+
+Politics and elections
+
+    The President of Burundi Pierre Nkurunziza says that the government will proceed with a presidential election despite protests and a recent failed coup. (BBC)
+    The United States Congress sends a human trafficking bill to President Barack Obama for signature. (Washington Times)
+
+Sports
+
+    Deflategate
+        In American football, Robert Kraft, the owner of the New England Patriots, says that team will not appeal the National Football League ruling. (ESPN)
+
+More May 2015 events...
+	
+Time: 00:07 UTC  |  Day: 25 May  |  Purge
+<< 	May 2015 	>>
+S 	M 	T 	W 	T 	F 	S
+	1 	2
+3 	4 	5 	6 	7 	8 	9
+10 	11 	12 	13 	14 	15 	16
+17 	18 	19 	20 	21 	22 	23
+24 	25 	26 	27 	28 	29 	30
+31
+   More May 2015 events...
+About this page • Suggest a headline
+
+News about Wikipedia
+ Ongoing events
+Political
+
+    Syrian and Iraqi civil wars
+        Military intervention against ISIL
+    Boko Haram insurgency in Nigeria, Cameroon and Niger
+    Saudi Arabian-led intervention in Yemen
+    2014–15 Russian military intervention in Ukraine
+
+More details on ongoing conflicts below
+
+edit sidebar
+ Recent deaths
+May
+
+    23: John Forbes Nash, Jr.
+    22: Marques Haynes
+    22: John Mosley
+    22: Terry Sue-Patt
+    21: Louis Johnson
+    20: Bob Belden
+    19: Bruce Lundvall
+    19: Happy Rockefeller
+    19: Robert S. Wistrich
+    18: Aruna Shanbaug
+    17: Chinx
+    16: Prashant Bhargava
+    16: Moshe Levinger
+    16: Dean Potter
+    16: Adrian Robinson
+    16: Abu Sayyaf
+    16: Peter Tallberg
+    16: John Templeton, Jr.
+    16: Yeung Kwong
+    15: Elisabeth Bing
+    15: Alfred DelBello
+    15: Corey Hill
+    15: Jacob Jensen
+    15: John Lo Schiavo
+    15: Garo Yepremian
+    14: B.B. King
+    14: Franz Wright
+    13: Derek Davis
+    13: David Sackett
+    12: Peter Gay
+    12: Bill Guthridge
+    12: William Zinsser
+    11: Tony Ayala, Jr.
+    11: Maggie Black
+    11: Jef Geeraerts
+    11: John Watts
+    10: Chris Burden
+    10: William T. Cooper
+    10: Kim Kyok-sik
+    10: Rachel Rosenthal
+    10: Victor Salvi
+    9: Kenan Evren
+    9: Johnny Gimble
+    9: Alexandre Lamfalussy
+    9: Michael Mackellar
+    9: Elizabeth Wilson
+    8: Rutger Gunnarsson
+    8: Mwepu Ilunga
+    8: Leif Holger Larsen
+    8: Domingo Lucenario, Jr.
+    7: Maurice Flanagan
+    7: Frank DiPascali
+    6: Errol Brown
+    6: Jim Wright
+    5: Gerard Davison
+    5: Craig Gruber
+    5: Hans Jansen
+    4: Ellen Albertini Dow
+    4: Marv Hubbard
+    4: Joshua Ozersky
+    3: Thomas A. Constantine
+    3: Danny Jones
+    3: Robert Rietti
+    3: Abdul Basit Usman
+    2: Guy Carawan
+    2: Dave Goldberg
+    2: Maya Plisetskaya
+    2: Ruth Rendell
+    1: María Elena Velasco
+    1: Grace Lee Whitney
+
+April
+
+    30: Ben E. King
+    30: Gregory Mertens
+    30: Patachou
+    30: Nigel Terry
+    29: Andrew Chan
+    29: Rodrigo Gularte
+    29: John G. Heyburn II
+    29: Jean Nidetch
+    29: Calvin Peete
+    29: Myuran Sukumaran
+    29: Ronald Senator
+    29: Dan Walker
+    28: Antônio Abujamra
+    28: Marcia Brown
+    28: René Féret
+    28: Ashura Hara
+    28: Keith Harris
+    27: Suzanne Crough
+    27: Jack Ely
+    27: Gene Fullmer
+    27: Verne Gagne
+    27: Andrew Lesnie
+    27: Harvey R. Miller
+    27: Marty Napoleon
+    27: Alexander Rich
+    26: Marcel Pronovost
+    26: Jayne Meadows
+    25: Jim Fanning
+    25: Edward Coke, 7th Earl of Leicester
+    25: Don Mankiewicz
+    25: Mike Phillips
+    24: Władysław Bartoszewski
+    24: Sabeen Mahmud
+    24: Michael Mustill, Baron Mustill
+    24: Sid Tepper
+    23: Philip Carter
+
+edit sidebar
+ Ongoing conflicts
+Africa
+
+    Algeria, Tunisia and Niger
+        Maghreb insurgency
+
+    Central African Republic
+        Civil war
+
+    Democratic Republic of Congo
+        Kivu conflict
+        ADF insurgency
+        Katanga insurgency
+        Ituri conflict
+        Lord's Resistance Army insurgency
+
+    Libya
+        Civil war
+
+    Mali
+        Northern Mali conflict
+
+    Nigeria and Cameroon
+        Boko Haram
+
+    Somalia
+        Civil war
+
+    South Sudan
+        South Sudanese Civil War
+
+    Sudan
+        War in Darfur
+        South Kordofan conflict
+
+Americas
+
+    Colombian conflict
+    Internal conflict in Peru
+    Mexican War on Drugs
+
+Asia
+
+    Afghanistan War
+
+    China
+        Xinjiang conflict
+
+    India
+        Naxalite–Maoist insurgency
+        Insurgency in Northeast India
+
+    India and Pakistan
+        Kashmir conflict
+
+    Pakistan
+        War in North-West Pakistan
+        Balochistan conflict
+
+    Philippines
+        Communist insurgency
+        Moro insurgency
+
+    Southeast Asia
+        Internal conflict in Burma
+        Papua conflict
+        South Thailand insurgency
+
+Europe
+
+    Georgia
+        Abkhaz–Georgian conflict
+        Georgian–Ossetian conflict
+
+    Dissident Irish Republican campaign
+
+    Chechen-Russian conflict
+        North Caucasus insurgency
+        War in Ingushetia
+
+    Nagorno-Karabakh Republic
+        Nagorno-Karabakh conflict
+
+    Ukraine
+        War in Donbass
+            Russian military intervention in Ukraine
+
+Middle East
+
+    Arab–Israeli conflict
+        Gaza–Israel conflict
+        Israeli–Lebanese conflict
+        Israeli–Palestinian conflict
+
+    Egypt
+        Sinai insurgency
+
+    Iran
+        Iran–PJAK conflict
+
+    Iraqi civil war
+        American-led intervention in Iraq
+        Iranian intervention in Iraq
+
+    Syrian Civil War
+        American-led intervention in Syria
+        Syrian Civil War spillover in Lebanon
+
+    Turkey
+        Turkey-PKK conflict
+
+    Yemeni crisis
+        Houthi rebellion
+        Al-Qaeda insurgency
+        South Yemen insurgency
+
+edit sidebar
+ Elections
+Recent: April–May
+
+    25: Togo, President
+    26: Benin, National Assembly
+    26: Kazakhstan, President
+    26: Northern Cyprus, President (2nd round)
+    30: Tanzania, Referendum
+    3: Nagorno-Karabakh, National Assembly
+    7: United Kingdom, House of Commons
+    10: Poland, President (1st round)
+    11: Guyana, National Assembly
+    13: Lebanon, President (23rd round)
+    22: Ireland, Referendum
+
+Ongoing:
+
+    24: Ethiopia, House of Peoples' Representatives
+    24: Poland, President (2nd round)
+
+Upcoming: May–June
+
+    25: Suriname, National Assembly
+    26: Burundi, National Assembly
+    26: Netherlands, Senate
+    3: Lebanon, President (24th round)
+    7: Luxembourg, Referenda
+    7: Mexico, Congress
+    7: Turkey, National Assembly
+    14: Switzerland, Referenda
+
+edit sidebar
+ Trials
+Recently concluded
+
+    Australia: Brett Peter Cowan, Craig Thomson, Robert Hughes
+    Brazil: Mensalão scandal
+    Canada: Michael Thomas Rafferty, Luka Magnotta
+    China: Liu Tienan, Li Daqiu, Ji Jianye, Liao Shaohua, Ni Fake, Chen Baihuai
+    Croatia: Ivo Sanader
+    Egypt: Hosni Mubarak, Peter Greste, Mohamed Morsi
+    Germany: Bernie Ecclestone, Uli Hoeness, Christian Wulff, Breno Borges
+    Iran: Mohammad Reza Rahimi
+    Israel: Hussam Qawasmeh
+    Italy: Silvio Berlusconi
+    Jordan: Abu Qatada
+    Malaysia: Anwar Ibrahim
+    Russia: Leonid Khabarov, Vladimir Kvachkov, Pussy Riot
+    South Africa: Shrien Dewani, Oscar Pistorius, Chris Mahlangu
+    Turkey: Kenan Evren, Tahsin Şahinkaya
+    United Kingdom: Michael Adebolajo and Michael Adebowale, Ali Dizaei, Antoni Imiela, Brian Regan, Donna Air, Ched Evans, Clayton McDonald, Titus Bramble, Dan Penteado, John Terry, Iftikhar and Farzana Ahmed, Asil Nadir, Justin Lee Collins, Kweku Adoboli, Tony McCluskie, Kevin Hutchinson-Foster, Chris Huhne, Nicola Edgington, Vicky Pryce, Derek Rose, Mick Philpott, Mairead Philpott, Paul Mosley, Kevin Liverpool, Junior Bradshaw, Aggro Santos, Stuart Hazell, Mark Bridger, Andrew Lancel, Dale Cregan, Ray Wilkins, Michael Le Vell, Liam Adams, R v Grillo and Grillo, Ian Watkins, William Roache, Dave Lee Travis, Nicholas Jacobs, Nigel Evans, Max Clifford, Stuart Hall, Dappy, Rebekah Brooks, Andy Coulson, Rolf Harris, Tulisa Contostavlos, Chris Denning, Ray Teret, Gary Glitter, Fred Talbot
+    United States: Abu Hamza al-Masri, Michael Grimm, Bob McDonnell, Vilma Bautista, George Huguely, Allen Stanford, Roger Clemens, Jerry Sandusky, Jared Lee Loughner, Lauryn Hill, Kermit Gosnell, George Zimmerman, Chelsea Manning, Ariel Castro, Whitey Bulger, Robert Bales, Nidal Malik Hasan, Dzhokhar Tsarnaev
+    International
+        ECCC: Nuon Chea, Khieu Samphan
+        ICC: Germain Katanga, Thomas Lubanga
+        ICTY: Momčilo Perišić, Mladen Markač, Ante Gotovina, Zdravko Tolimir
+        SCFSL: Charles Taylor
+
+Ongoing
+
+    France: Dominique Strauss-Kahn
+    Germany: Beate Zschäpe
+    Iran: Babak Zanjani
+    Philippines: Andal Ampatuan, Jr., Gloria Macapagal Arroyo, Janet Lim-Napoles, Jovito Palparan, Joseph Scott Pemberton
+    Russia: Alexei Navalny
+    South Korea: MV Sewol crew members
+    United States: Jodi Arias
+    International
+        ICTY: Radovan Karadžić, Ratko Mladic
+
+Upcoming
+
+    China: Zhou Yongkang, Wu Changshun
+    Libya: Saif al-Islam Gaddafi
+    Spain: Lionel Messi
+    United Kingdom: Dane Bowers, Andy Coulson
+    United States: Paul Anthony Ciancia, Javaris Crittenton, Khalid Sheikh Mohammed, Dylan Quick, James Eagan Holmes, Aaron Hernandez, Graham Spanier, Tim Curley, Gary Schultz, Anas al-Libi, Justin Bieber, Chris Brown, Rick Perry
+    International
+        ICC: Laurent Gbagbo
+
+edit sidebar
+Events by month
+[hide]
+
+2015
+    January
+    February
+    March
+
+2014
+    January
+    February
+    March
+    April
+    May
+    June
+    July
+    August
+    September
+    October
+    November
+    December
+
+2013
+    January
+    February
+    March
+    April
+    May
+    June
+    July
+    August
+    September
+    October
+    November
+    December
+
+2012
+    January
+    February
+    March
+    April
+    May
+    June
+    July
+    August
+    September
+    October
+    November
+    December
+
+2011
+    January
+    February
+    March
+    April
+    May
+    June
+    July
+    August
+    September
+    October
+    November
+    December
+
+Content listings
+Types
+
+    Overviews Featured content Outlines Lists Portals Glossaries Categories Indices 
+
+Topics
+
+    Current events Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology 
+
+Places, people and times
+
+    Academic disciplines Anniversaries
+        today Countries and territories People
+        deaths this year Timelines
+        centuries decades 
+
+Indices
+
+    A–Z index Categories Dewey Decimal classes Library of Congress Classification Roget's Thesaurus Spoken articles Wikipedia books 
+
+Categories:
+
+    2015 by day2015Current events
+
+Navigation menu
+
+    Create account
+    Log in
+
+    Portal
+    Talk
+
+    Read
+    View source
+
+More
+
+Basenjis are small, short-haired dogs with erect ears, tightly curled tails and graceful necks. A Basenji's forehead is wrinkled, even more so when they are young or extremely excited. A Basenji's eyes are typically almond-shaped. Basenjis typically weigh about 9.1–10.9 kg (20–24 lb) and stand 41–46 cm (16–18 in) at the shoulder. They are a square breed, which means they are as long as they are tall with males usually larger than females. Basenjis are athletic dogs, and deceptively powerful for their size. They have a graceful, confident gait like a trotting horse, and skim the ground in a double suspension gallop, with their characteristic curled tail straightened out for greater balance when running at their top speed. Basenjis come in a few different colorations: red, black, tricolor, and brindle, and they all have white feet, chests and tail tips. They can also come in trundle, which is a tricolor with brindle points, a rare combination.
+Unbalanced scales.svg
+	The neutrality of this section is disputed. Relevant discussion may be found on the talk page. Please do not remove this message until the dispute is resolved. (December 2014)
+Temperament
+
+The Basenji is alert, energetic, curious and reserved with strangers. The Basenji tends to become emotionally attached to a single human. Basenjis may not get along with non-canine pets. Basenjis dislike wet weather, like to climb, can easily get over chain wire fences.
+
+Basenjis often stand on their hind legs, somewhat like a meerkat, by themselves or leaning on something; this behavior is often observed when the dog is curious about something. Basenjis have a strong prey drive. According to the book The Intelligence of Dogs, they are the second least trainable dog. However, Basenjis are extremely intelligent and respond to training that is consistent and positive with plenty of treats. Basenjis do not respond well to punishment, such as yelling and hitting, which can cause them to utter a warning growl.
+Health
+
+There is apparently only one completed health survey of Basenjis,[5] a 2004 UK Kennel Club survey.[6]
+
+Basenjis are prone to blindness from PRA (progressive retinal atrophy), and kidney failure from Fanconi syndrome. They can also suffer from Hypothyroidism, IPSID (immunoproliferative systemic intestinal disease), and HA (Hemolytic Anemia). Basenjis are also sensitive to environmental and household chemicals, which may cause liver problems.
+Longevity
+
+Basenjis in the 2004 UK Kennel Club survey had a median lifespan of 13.6 years (sample size of 46 deceased dogs),[6] which is 1–2 years longer than the median lifespan of other breeds of similar size.[7] The oldest dog in the survey was 17.5 years. Most common causes of death were old age (30%), urologic (incontinence, Fanconi syndrome, chronic kidney failure 13%), behavior ("unspecified" and aggression 9%), and cancer. (9%).[6]
+
+Among 78 live dogs in the 2004 UKC survey, the most common health issues noted by owners were dermatologic and urologic[6] (urologic issues in Basenjis can be signs of Fanconi syndrome).
+Fanconi Syndrome
+
+Fanconi syndrome, an inheritable disorder in which the kidneys fail to reabsorb electrolytes and nutrients,[8] is unusually common in Basenjis.[9] Symptoms include excessive drinking, excessive urination, and glucose in the urine, which may lead to a misdiagnosis of diabetes. Fanconi syndrome usually presents between 4 and 8 years of age, but sometimes as early as 3 years or as late as 10 years. Fanconi syndrome is treatable and organ damage is reduced if treatment begins early. Basenji owners are advised to test their dog's urine for glucose once a month beginning at the age of 3 years. Glucose testing strips designed for human diabetics are inexpensive and available at most pharmacies. Steve Gonto, M.M.Sc., Ph.D., has a 'Fanconi Disease Management Protocol for Veterinarians' that is commonly used by many veterinarians with Fanconi syndrome afflicted dogs.[10]
+Fanconi DNA Linkage Test
+
+In July 2007, Dr. Gary Johnson of the University of Missouri released the linked marker DNA test for Fanconi Syndrome in Basenjis. It is the first predictive test available for Fanconi Syndrome.[11] With this test, it is possible to more accurately determine the probability of a dog carrying the gene for Fanconi Syndrome.
+
+Dogs tested using this "linkage test" return one of the following statuses:
+
+        Probably clear/Normal
+
+        Indicates the individual has most likely inherited normal DNA from both parents. It is unlikely that basenjis that test this way will produce affected puppies, no matter which dog they breed with.
+
+        Probably Carrier
+
+        Indicates the individual has most likely inherited normal DNA from one parent and DNA with the Fanconi syndrome mutation from the other parent.This basenji is unlikely to develop Fanconi syndrome, but could produce puppies that do. To minimize the chances of this happening it is recommended carriers be bred only to those that test as Probably clear/Normal for Fanconi Syndrome.
+
+        Probably Equivocal/Indeterminate
+
+        Indicates the individual's DNA contained features found in both "normal" and "carrier" basenjis. At present it cannot be predicted whether these basenjis are carriers or normal; however, it is unlikely that they will develop Fanconi syndrome. The safest strategy would be to treat them as “carriers” and only bred to those basenjis that test as Probably Clear/Normal for Fanconi Syndrome.
+
+        Probably Affected
+
+        Indicates the individual is likely to develop clinical Fanconi syndrome and is likely to produce puppies with Fanconi Syndrome if bred to basenjis other than those that test as Probably Clear/Normal for Fanconi Syndrome.
+
+This linkage test is being provided as a tool to assist breeders whilst research continues towards the development of the direct fanconi test.
+
+The direct Fanconi DNA test has now been developed and may be ordered from the Orthopedic Foundation for Animals at http://www.offa.org/dnatesting/fanconi.html .
+
+For more information about the linkage test visit: Basenji Health Endowment Fanconi Test FAQ[dead link].
+Other basenji health issues
+
+Basenjis sometimes carry a simple recessive gene that, when homozygous for the defect, causes genetic Hemolytic Anemia.[12] Most 21st-century basenjis are descended from ancestors that have tested clean. When lineage from a fully tested line (set of ancestors) cannot be completely verified, the dog should be tested before breeding. As this is a non-invasive DNA test, a basenji can be tested for HA at any time.
+
+Basenjis sometimes suffer from hip dysplasia, resulting in loss of mobility and arthritis-like symptoms. All dogs should be tested by either OFA or PennHIP prior to breeding.
+
+Malabsorption, or immunoproliferative enteropathy, is an autoimmune intestinal disease that leads to anorexia, chronic diarrhea, and even death. A special diet can improve the quality of life for afflicted dogs.
+
+The breed can also fall victim to progressive retinal atrophy (a degeneration of the retina causing blindness) and several less serious hereditary eye problems such as coloboma (a hole in the eye structure), and persistent pupillary membrane (tiny threads across the pupil).
+History
+A portrait of a black and white Basenji
+
+Among breeds recognized by the AKC, the Basenji is arguably the most ancient dog breed; that is to say that the common ancestor it shares with all other existing dogs lived longer ago than the common ancestor of any two other living dogs.[13] However, this is not to say that most ancient common ancestor of all dogs was a Basenji, as the characteristics that define the breed may have evolved since then. Although the modern Basenji is from central Africa, at some point long ago its ancestor arrived there from eastern Asia, having evolved from either Chinese or southeast Asian wolves.[14]
+
+Originating on the continent of Africa,[15] basenji-like dogs have lived with humans for thousands of years. Dogs resembling modern Basenjis can be seen on stelae in the tombs of Egyptian pharaohs, sitting at the feet of their masters, looking just as they do today, with pricked ears and tightly curled tails. Dogs of this type were originally kept for hunting small game by tracking and driving the game into nets.[2][16]
+
+Europeans first described the type of dog the Basenji breed derives from in in 1895—in the Congo. These local dogs, which Europeans identified as a unique breed and called basenji, were prized by locals for their intelligence, courage, speed, and silence. An article published called The Intelligence of Dogs by Stanley Coren, Ph.D. questions this. It ranks the breed at #78 out of 79, which is the second to lowest rank in intelligence. Some consider this an unreliable list, as it only focuses on ability to listen to a first command. Some consider independent dogs such as Basenjis and Afghan Hounds more intelligent than obedient breeds because of their ability to recognize which actions benefit them, and which simply please another.[17]
+
+Basenjis were assistants to the hunt, chasing wild game into nets for their masters. The Azande and Mangbetu people from the northeastern Congo region describe basenjis, in the local Lingala language, as mbwá na basɛ́nzi. Translated, this means "dogs of the savages", or "dogs of the villagers". In the Congo, the basenji is also known as "dog of the bush." The dogs are also known to the Azande of southern Sudan as Ango Angari.[18] The word basɛ́nzi itself is the plural form of mosɛ́nzi. In Swahili, another Bantu language, from East Africa, mbwa shenzi translates to “wild dog”. Another local name is m’bwa m’kube m’bwa wamwitu, or “jumping up and down dog”,[dubious – discuss] a reference to their tendency to jump straight up to spot their quarry.
+
+Several attempts were made to bring the breed to England, but the earliest imports succumbed to disease. In 1923, for example, Lady Helen Nutting brought six Basenjis with her from Sudan, but all six died from distemper shots they received in quarantine.[19] It was not until the 1930s that foundation stock was successfully established in England, and then to the United States by animal importer Henry Trefflich. So it is likely that nearly all the Basenjis in the Western world are descended from these few original imports.[20] The breed was officially accepted into the AKC in 1943. In 1990, the AKC stud book was reopened to 14 new imports at the request of the Basenji Club of America.[21] The stud book was reopened again to selected imported dogs from 1 January 2009 to 31 December 2013.[22] An American-led expedition collected breeding stock in villages in the Basankusu area of the Democratic Republic of Congo, in 2010.[23] Basenjis are also registered with the UKC.
+
+The popularity of the Basenji in the United States, according to the American Kennel Club, has declined over the past decade, with the breed ranked 71st in 1999, decreasing to 84th in 2006, and to 93rd in 2011.[24]
+
+Further study is needed to determine whether they belong to the subspecies Canis lupus familiaris, as is the case with most dogs, or rather into the subspecies Canis lupus dingo, like the Australian Dingo.[25]
+
+    Basenji
+
+    Tri-Colored Basenji
+
+    Trindle Basenji
+
+    Basenji showing characteristic large, forward-pointing ears.
+
+    A pair of red Basenjis
+
+In popular culture
+
+    The title character of the 1954 novel Good-bye, My Lady, by James H. Street, is a basenji. The book was made into a movie of the same name in 1956, with a cast that included Brandon deWilde, Walter Brennan, and Sidney Poitier.[26]
+
+    Veronica Anne Starbuck's 2000 novel Heart of the Savannah features a basenji named Savannah. Savannah narrates this story about her adventures as an African-bred dog brought to America. Starbuck also wrote a sequel titled August Magic.
+
+    Simon Cleveland wrote a novel titled The Basenji Revelation, published by Lulu Press in 2004, in which a government agent suffers amnesia and undergoes a change in personality after inheriting a basenji from his late mother.
+
+    The true story of a basenji was featured in the episode The Cat Came Back[27] on the radio program This American Life.
+
+    According to the webcomic Achewood, if Jesus Christ were a dog, he'd be a basenji.[28]
+
+    Basenjis are featured in an episode of the animated television series The Wild Thornberrys In episode 3.04 "Tyler Tucker, I Presume?". Nigel Thornberry encounters a group of tribesmen along with their Congolese hunting dogs. The series' director, Mark Risley owns several basenjis, and his dogs provided the recorded "voices" for their animated counterparts.
+    An episode of Pound Puppies, "The Pups Who Loved Me", revolves around a basenji secret agent character by the name of Bondo. The dog is drawn with an appropriate likeness, but appears to bark, which is uncharacteristic of the breed.
+
+See also
+
+    Indian pariah dog
+    Pariah dog
+
+References
+
+Adapted from the book Why Pandas Do Handstands, 2006, by Augustus Brown.
+BCOA African Stock Project – 1945 Letter from Africa
+http://akc.org/breeds/basenji/ AKC Meet the Breeds: Basenji. AKC. Retrieved 2009-09-14
+Right Pet: Dingo
+http://users.pullman.com/lostriver/breeddata.htm Dog Longevity Web Site, Breed Data page. Compiled by K. M. Cassidy. Retrieved 8 July 2007
+http://www.thekennelclub.org.uk/item/570 Kennel Club/British Small Animal Veterinary Association Scientific Committee. 2004. Purebred Dog Health Survey. Retrieved 5 July 2007
+http://users.pullman.com/lostriver/weight_and_lifespan.htm Dog Longevity Web Site, Weight and Longevity page. Compiled by K. M. Cassidy. Retrieved 5 July 2007
+Easley; Breitschwerdt (1976). J Am Vet Med Assoc. 168 (10): 938–943. Missing or empty |title= (help)
+Noonan,CHB, Kay JM 1990. Prevalence and Geographic-distribution of Fanconi Syndrome in Basenjis in the United-States Journal of the American Veterinary Medical Association197(3)345–349
+http://basenjicompanions.org/health/images. The current DNA test for Fanconi syndrome may be ordered from http://www.offa.org/dnatesting/fanconi.html /Protocol2003.html
+"Basenji Health Endowment: Fanconi Linkage Test FAQ". Archived from the original on 1 December 2007. Retrieved 1 December 2007.[dead link]
+Basenji Health Issues
+www.nature.com
+http://www.dibubasenjis.com/papers/domestication.pdf
+Basenji Club Of America Introduction to Basenjis
+Dollman, Guy., 1937 The Basenji Dog Journal of the Royal African Society Vol 36, No. 143 pp. 148–149
+Basenji Club Of America Understanding Basenjis
+BCOA African Stock Project – My Journey into the Home of the Basenji
+BCOA African Stock Project – Lady Helen Nutting
+BCOA African Stock Project – History of the Breed Presented to the AKC
+http://www.basenji.org/NativeStock/Correspondence/FirstLetterToAKC.pdf
+[1][dead link]
+Dibu Basenjis Expedition to Basankusu.
+"AKC Dog Registration Statistics". American Kennel Club. Retrieved 3 June 2012.[dead link]
+p.223[dead link]
+Good-bye, My Lady (1956)
+The Cat Came Back | This American Life
+
+    An Afternoon With Molly Sanders
+
+External links
+	Wikimedia Commons has media related to Basenji.
+
+    Basenji at DMOZ
+
+
+[show]
+
+    v t e 
+
+Primitive-type dogs by FCI section
+[show]
+
+    v t e 
+
+Hounds
+Categories:
+
+    HoundsDog breedsDog breeds originating in AfricaRare dog breeds
+
+Navigation menu
+
+    Create account
+    Log in
+
+    Article
+    Talk
+
+    Read
+    Edit
+    View history
+
