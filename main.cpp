@@ -90,7 +90,8 @@ void generateWord(map< pair<string, string>, vector<string> > in_suffix_map)
 {
 	string prevkey1 = "\0", prevkey2 = "\0", output;
 	pair<string, string> key;
-	int size_in_kp, randomized_word_index;
+	int size_in_kp, randomized_word_index, random_end;
+	string::size_type str_search;
 	bool finished = false;
 
 	while(finished == false)
@@ -105,9 +106,21 @@ void generateWord(map< pair<string, string>, vector<string> > in_suffix_map)
 		prevkey2 = output;
 
 		key = make_pair(prevkey1, prevkey2);
-		if(in_suffix_map[key].size() == 0)
+
+		if(in_suffix_map[key].size() == 0)	//Close if map pair is invalid.
 		{
 			finished = true;
+		}
+
+		random_end = rand() % 1000 + 1;
+
+		if(random_end < 20)			//Randomly close on a period.
+		{
+			str_search = output.find(".");
+			if(str_search != string::npos)
+			{
+				finished = true;
+			}
 		}
 
 		cout << output << " ";
