@@ -7,17 +7,20 @@
 
 using namespace std;
 
-bool buildMap(string, map< pair<string, string>, string> &);
-string generateWord(map< pair<string, string>, string>);
+bool buildMap(string, map< pair<string, string>, vector<string> > &);
+void generateWord(map< pair<string, string>, vector<string> >);
 
 int main(int argc, char *argv[])
 {
-	map< pair<string, string>, string> suffix_map;
+	map< pair<string, string>, vector<string> > suffix_map;
+	
+	srand(time(NULL));
 
 	buildMap(argv[1], suffix_map);
+	generateWord(suffix_map);
 }
 
-bool buildMap(string filename, map< pair<string, string>, string> &in_suffix_map)
+bool buildMap(string filename, map< pair<string, string>, vector<string> > &in_suffix_map)
 {
 	ifstream fin;
 	string word;
@@ -72,14 +75,42 @@ bool buildMap(string filename, map< pair<string, string>, string> &in_suffix_map
 			key = make_pair(key1, key2);
 		}
 
-		in_suffix_map[key] = value;
+		in_suffix_map[key].push_back(value);
 		it++;
 	}
+	//Ensure this deallocates.
+
+	whole_file.clear();
+	word.clear();
 
 	return 1;
 }
 
-string generateWord(map< pair<string, string>, string>)
+void generateWord(map< pair<string, string>, vector<string> > in_suffix_map)
 {
-	return "stub";
+	string prevkey1 = "\0", prevkey2 = "\0", output;
+	pair<string, string> key;
+	int size_in_kp, randomized_word_index;
+	bool finished = false;
+
+	while(finished == false)
+	{
+		key = make_pair(prevkey1, prevkey2);
+		size_in_kp = in_suffix_map[key].size();
+
+		randomized_word_index = rand() % size_in_kp;
+
+		output = in_suffix_map[key][randomized_word_index];
+		prevkey1 = prevkey2;
+		prevkey2 = output;
+
+		key = make_pair(prevkey1, prevkey2);
+		if(in_suffix_map[key].size() == 0)
+		{
+			finished = true;
+		}
+
+		cout << output << " ";
+	}
+	cout << endl;
 }
