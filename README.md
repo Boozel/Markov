@@ -12,4 +12,4 @@ RUNNING:
     - ./markov testinput
     - ./markov myfile
   
-  - To output to a file, simply use a redirect in your terminal program.
+  - To output to a file, use a redirect in your terminal program.
