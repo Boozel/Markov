@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
+#include <time.h>	//for Windows
 
 using namespace std;
 
