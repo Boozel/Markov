@@ -74,7 +74,7 @@ void exportMap(map< pair<string, string>, vector<string> > outMap)
 	while(it!= outMap.end())
 	{
 		it2 = it->second.begin();
-		fout << it->first.first << " " << it->first.second << " ";
+		fout <<"-KEYBAWS- " << it->first.first << " -KEYBAWS- " << it->first.second << " ";
 		while(it2 != it->second.end())
 		{
 			fout << *it2 << " ";
@@ -103,11 +103,14 @@ void injectStarterWords(string filename, map< pair<string, string>, vector<strin
 	/* -- Read all file input -- */
 	fin.open(filename.c_str());
 
-	key1 = key2;
-	key2 = word;
 	key = make_pair(key1, key2);
 
 	fin >> word;
+
+	while(word == "-KEYBAWS-")
+	{
+		fin >> word;
+	}
 
 	while(word != "-ENDBAWS-" && fin.good())
 	{
@@ -115,27 +118,36 @@ void injectStarterWords(string filename, map< pair<string, string>, vector<strin
 		fin >> word;
 	}
 
-	//Get next key
 	fin >> word;
-	key2 = word;
-	key = make_pair(key1, key2);
 	fin >> word;
 
-	while(word != "-ENDBAWS-" && fin.good())
+	//Get next key
+	while(word == "-KEYBAWS-")
 	{
-		in_suffix_map[key].push_back(word);
+		fin >> word;
+		key2 = word;
+		key = make_pair(key1, key2);
+		fin >> word;
+
+		while(word != "-ENDBAWS-" && fin.good())
+		{
+			in_suffix_map[key].push_back(word);
+			fin >> word;
+		}
+
+		fin >> word;
 		fin >> word;
 	}
 
 	while (fin.good())
 	{
 		//use basic fin - cuts off on spaces and newlines so it's perfect.
-		fin >> word;
 		if(word != "-ENDBAWS-")
 		{
 			key1 = word;
 		}
-
+		
+		fin >> word;
 		fin >> word;
 
 		if(word != "-ENDBAWS-")
@@ -151,6 +163,9 @@ void injectStarterWords(string filename, map< pair<string, string>, vector<strin
 			in_suffix_map[key].push_back(word);
 			fin >> word;
 		}
+
+		fin >> word;
+		fin >> word;
 	}
 	fin.close();
 
