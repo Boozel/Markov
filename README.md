@@ -12,10 +12,11 @@ RUNNING:
   EXAMPLE:
 
    Usage:
-	./markov [input_file]
+   
+   	./markov [input_file]
 		+ Uses default database to seed histogram,
 		  then injects new data from the given file.	
-	
+
 	./markov -altdb [input_file] [desired_database]
 		+ If [desired_database] exists, will use it to seed
 		  historgram. If [desired_database] doesn't exist,
