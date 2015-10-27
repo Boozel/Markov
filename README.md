@@ -8,7 +8,9 @@ COMPILATION:
 
 RUNNING:
   - To run my chainer, simply run the program with the desired plaintext file input.
+  
   EXAMPLE:
+
    Usage:
 	./markov [input_file]
 		+ Uses default database to seed histogram,
