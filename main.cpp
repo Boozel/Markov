@@ -36,6 +36,7 @@ int main(int argc, char *argv[])
 				command_error = 0;
 				injectStarterWords("db", suffix_map);
 				buildMap(argv[1], suffix_map);
+				exportMap(suffix_map, "db");
 			}
 			else
 			{

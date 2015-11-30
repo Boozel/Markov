@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 {
 	map< pair<string, string>, vector<string> > suffix_map;
 	bool command_error = 1;
-	string msg = "unkn";
+	string msg = "No Arguments Provided!";
 	ifstream fin;
 
 	srand(time(NULL));
